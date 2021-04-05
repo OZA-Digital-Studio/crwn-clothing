@@ -65,7 +65,6 @@ class SignUp extends React.Component {
             value={displayName}
             onChange={this.handleChange}
             label="Name"
-            readOnly
             required
           />
           <FormInput
@@ -74,7 +73,6 @@ class SignUp extends React.Component {
             value={email}
             onChange={this.handleChange}
             label="Email"
-            readOnly
             required
           />
           <FormInput
@@ -83,7 +81,6 @@ class SignUp extends React.Component {
             value={password}
             onChange={this.handleChange}
             label="Password"
-            readOnly
             required
           />
           <FormInput
